@@ -17,7 +17,7 @@ public abstract class Futbolista implements Comparable <Futbolista>{
 	
 	@Override
     public int compareTo(Futbolista otro) {
-        return this.nombre.compareTo(otro.nombre);
+		return 0;
     }
 
     @Override
