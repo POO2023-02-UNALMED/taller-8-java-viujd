@@ -1,9 +1,9 @@
 package futbol;
 
 public abstract class Futbolista implements Comparable <Futbolista>{
-	private String nombre;
-	private int edad;
-	private final String posicion;
+	protected String nombre;
+	protected int edad;
+	protected final String posicion;
 	
 	public Futbolista (String nombre, int edad, String posicion) {
 		this.nombre=nombre;

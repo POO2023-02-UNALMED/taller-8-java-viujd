@@ -22,7 +22,7 @@ public class Jugador extends Futbolista {
 	
 	@Override
     public String toString() {
-        return "El futbolista " + getNombre() + " tiene " + getEdad() + " años, y juega de " + posicion + " con el dorsal " + dorsal + ". Ha marcado " + golesMarcados + " goles.";
+        return "El futbolista " + nombre + " tiene " + edad + " años, y juega de " + posicion + " con el dorsal " + dorsal + ". Ha marcado " + golesMarcados + " goles.";
     }
 	
 	public boolean jugarConLasManos() {
