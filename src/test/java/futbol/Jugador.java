@@ -16,6 +16,7 @@ public class Jugador extends Futbolista {
 		this.dorsal=7;
 	}
 	
+	 
 	public int compareTo(Jugador otro) {
 		return Math.abs(this.getEdad() - otro.getEdad());
 	}
